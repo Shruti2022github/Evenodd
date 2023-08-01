@@ -1,0 +1,25 @@
+<html>
+<script>
+function chk_no()
+{
+n=eval(document.form1.t1.value);
+if(n%2==0)
+{
+document.form1.t2.value="Even"
+}
+else
+{
+document.form1.t2.value="Odd"
+}
+}
+</script>
+<body>
+<form name=form1>
+Enter a number:-<input type=text name=t1 value="">
+<br><br><br>
+<input type=button name=b1 value="check number" onclick="chk_no()">
+show status:-
+<input type=text name=t2 value="">
+</form>
+</body>
+</html>
